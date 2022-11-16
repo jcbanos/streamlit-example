@@ -4,6 +4,10 @@ import numpy as np
 
 st.write('Welcome to my app')
 
+location = st.text_input('Pick Up Location', 'Empire State')
+
+st.write('The current location is', location)
+
 @st.cache
 def get_line_chart_data():
 
